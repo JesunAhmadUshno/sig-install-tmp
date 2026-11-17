@@ -1,0 +1,12 @@
+docs:
+  - changed-files:
+      - any-glob-to-any-file: ["README.md"]
+signatures:
+  - changed-files:
+      - any-glob-to-any-file: ["*.html"]
+assets:
+  - changed-files:
+      - any-glob-to-any-file: ["*.gif", "*.jpg"]
+automation:
+  - changed-files:
+      - any-glob-to-any-file: [".github/**"]
